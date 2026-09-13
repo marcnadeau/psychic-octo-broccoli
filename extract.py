@@ -103,9 +103,9 @@ def main():
                     else:
                         train_count += 1
 
-                if count >= args.max_examples:
+                if args.max_examples > 0 and count >= args.max_examples:
                     break
-            if count >= args.max_examples:
+            if args.max_examples > 0 and count >= args.max_examples:
                 break
 
     print(f"Dataset generated: {count} examples")
