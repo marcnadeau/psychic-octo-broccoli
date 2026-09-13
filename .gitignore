@@ -1,2 +1,14 @@
-mpd/*
+# Raw MPD data and local archives are too large for Git.
+mpd/
 *.zip
+
+# Local Python environment and generated caches.
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local training outputs and credentials.
+outputs/
+*.safetensors
+kaggle.json
+.env
