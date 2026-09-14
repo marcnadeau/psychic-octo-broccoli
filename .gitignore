@@ -12,3 +12,6 @@ outputs/
 *.safetensors
 kaggle.json
 .env
+dataset/Modelfile
+dataset/*.gguf
+dataset-50k/*
